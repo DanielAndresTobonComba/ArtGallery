@@ -104,7 +104,7 @@ body {
 /* estilos.css */
 
 .hero-section {
-    background-image: url('Gallery/IMG/fondo.jpg'); /* Reemplaza con la URL de tu imagen de fondo */
+    background-image: url('/Gallery/IMG/fondo.jpg'); /* Reemplaza con la URL de tu imagen de fondo */
     background-size: cover;
     background-position: center;
     color: white;
@@ -112,6 +112,7 @@ body {
     padding: 60px 20px;
     position: relative;
 }
+
 
 .hero-content {
     position: relative;
