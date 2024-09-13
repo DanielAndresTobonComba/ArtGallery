@@ -13,21 +13,11 @@
     
 
     .menu-container {
-        /* display: none; */
+
         width: 100%;
         flex-direction: column;
         align-items: flex-start;
     }
-
-    /* .menu-toggle {
-        display: block;
-        background-color: #333;
-        color: white;
-        padding: 10px 0px;
-        cursor: pointer;
-        text-align: center;
-        width: 100%;
-    } */
 
     .menu-container.active {
         display: flex;
@@ -74,14 +64,11 @@
 /* Estilos responsivos de la informacion del museo */
 
 @media screen and (max-width: 600px) {
-    .visit-details {
-        flex-direction: column;
-        width: 100%;
-       
-    }
+
 
     .detail-item {
         padding: 0px;
+        
         
     }
 
